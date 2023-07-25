@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+/* ********************************* */
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-color: #fff;
+}
+footer .container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+footer .container .aboutus h2{
+  position: relative;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer .container .aboutus p{
+  color: #552;
+}
+
+footer .container  .social{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,50px)
+}
+
+footer .container  .social li a{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+   background: #222; 
+   border-radius: 15px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .container  .social li a i{
+  color: #fff;
+  font-size: 1.3rem;
+}
+footer .container  .social li a i:hover{
+  color: #3a6cf4;
+}
+
+footer .container  .link-supp{
+  position: relative;
+}
+
+
+footer .container  .link-supp ul li a{
+  color: #554;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+footer .container .link-supp li :hover{
+  color: #3a6cf4;
+}
+
+footer .container .link-category ul li a{
+  color: #552;
+  margin-bottom: 10px;
+}
+
+footer .container .link-category li :hover{
+  color: #3a6cf4;
+}
+
+footer .container .link-contact .cont {
+  position: relative;
+}
+
+footer .container .link-contact .cont li{
+  color: #555;
+  display: grid;
+  grid-template-columns: 30fr 1fr;
+  margin-bottom: 16px;
+}
+
+footer .container  .link-contact li a {
+  color: #3a6cf4;
+  font-size: 20px;
+}
+
+.footer-title {
+  padding: 25px;
+  text-align: center;
+}
+
+.footer-title span{
+  color: #3a6cf4;
+}
+
+@media (max-width:991px)
+{
+  footer{
+    padding: 40px;
+  }
+  footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px ;
+  }
+  .footer-title{
+    padding: 20px 40px 30px;
+}
+}
+
+@media (max-width:786px)
+{
+
+  footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px ;
+  }
+}
+/* ********************************* */
