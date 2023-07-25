@@ -11,12 +11,19 @@
 }
 
 /* ********************************* */
+body{
+  min-height: 100vh;
+  display: grid;
+  justify-content: end;
+  align-content: end;
+}
 footer{
-  position: relative;
+border-radius:10px ; 
+ position: relative;
   width: 100%;
   height: auto;
-  padding: 50px 100px;
-  background-color: #fff;
+  padding: 25px 100px;
+  background-color: #d4d4d4;
 }
 footer .container{
   width: 100%;
