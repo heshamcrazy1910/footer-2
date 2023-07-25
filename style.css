@@ -18,8 +18,8 @@ body{
   align-content: end;
 }
 footer{
-border-radius:10px ; 
- position: relative;
+  border-radius: 10px ; 
+  position: relative;
   width: 100%;
   height: auto;
   padding: 25px 100px;
@@ -85,7 +85,8 @@ footer .container .link-supp li :hover{
 
 footer .container .link-category ul li a{
   color: #552;
-  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 8px;
 }
 
 footer .container .link-category li :hover{
